@@ -1,0 +1,16 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: black !important;
+    z-index: 1; /* Ensure header is above video */
+}
+.Link{
+    color: white;
+}
+.Link:hover{
+    color: #ccc;
+}
+.Dropdown{
+    background-color: black;
+    color: black;
+}
