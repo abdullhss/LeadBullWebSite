@@ -41,7 +41,7 @@ export default function Header(){
         Something else here
     </NavDropdown.Item>
 </NavDropdown>
-                    <Nav.Link href="#action2" className='Link'>Support</Nav.Link>
+                    <Nav.Link href="#action3" className='Link'>Support</Nav.Link>
                     </Nav>
                     <Button className='me-2'>log in</Button>
                     <Button>Countact</Button>

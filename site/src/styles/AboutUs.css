@@ -1,7 +1,8 @@
 #AboutUsContent{
     color: #e0dddd;
+    background-image: radial-gradient(100% 100% at 50% 50%, rgba(14, 23, 75, 0.466) 1%, #000000 77%);
 }
 .gridiant{
     background: rgb(0,72,171);
-    background: linear-gradient(90deg, rgba(0,72,171,1) 0%, rgba(0,18,88,1) 20%);
+    background: linear-gradient(90deg, rgba(0,72,171,1) 0%, rgb(9, 31, 121) 20%);
 }

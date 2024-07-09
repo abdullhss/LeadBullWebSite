@@ -1,0 +1,40 @@
+.BoxClass{
+    rotate:45deg ;
+    background: linear-gradient(90deg, rgba(8,39,58,1) 0%, rgba(22,59,82,1) 100%) ;
+    outline: 6px solid #027FCA;
+    outline-offset: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    .BoxClass {
+        width: 40vh !important;
+        height: 40vh !important;
+        margin: 10% 0%;
+    }
+    .BoxClass img{
+        max-width: 200px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .BoxClass {
+        width: 20vh !important;
+        height: 20vh !important;
+        margin: 15% 0%;
+    }
+    .BoxClass img{
+        max-width: 100px !important;
+    }
+}
+.BoxClass h5 {
+    rotate: -45deg;
+    font-weight: 300;
+    font-size: 15px;
+}
+.BoxClass img{
+    rotate: -45deg;
+    max-width: 200px;
+}

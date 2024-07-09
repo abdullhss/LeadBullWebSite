@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/AboutUs.css'
+import '../styles/Box.css'
+import Box from './Box.jsx'
 import { Container, Row, Col ,Button} from 'react-bootstrap';
 
 export default function AboutUs (){
@@ -51,9 +53,7 @@ return (
                 </Row>
             </div>
         </Col>
-        <Col lg={6} className="justify-content-center align-items-center gridiant">
-            <div >Third Row - Second Column</div>
-        </Col>
+        <Box imgPath="../../public/man.png"></Box>
     </Row>
 
     </Container>

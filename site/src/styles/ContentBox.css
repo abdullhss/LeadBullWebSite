@@ -1,0 +1,52 @@
+/* #Box1 and #Box6 is the first box in each side Box1 -> first at left side , Box6 -> first at right*/
+#Box2{
+    position: absolute;
+    left: -15%;
+    top: 25%;
+}
+#Box3{
+    position: absolute;
+    top: 50%;
+}
+
+#Box4{
+    position: absolute;
+    right: 30%;
+    top: 25%;
+}
+#Box5{
+    position: absolute;
+    top: 50%;
+}
+@media (max-width: 992px) {
+    .FirstSide{
+        margin-bottom: 20%;
+    }
+    .ApproachCircle{
+        margin-top: 15%;
+    }
+    .Contentboxs{
+        display: block;
+    }
+    #Box2 ,#Box3 ,#Box4 ,#Box5 ,#Box1,#Box6 {
+        position: static;
+        width: 15vh !important;
+        height: 15vh !important;
+        margin-top: 10%;
+    }
+} 
+
+@media (max-width: 700px) {
+    .FirstSide{
+        margin-bottom: 20%;
+    }
+    .Contentboxs{
+        display: block;
+    }
+    #Box2 ,#Box3 ,#Box4 ,#Box5 ,#Box1,#Box6 {
+        position: static;
+        width: 15vh !important;
+        height: 15vh !important;
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,19 @@
+.Approach{
+    color: white;
+    height: 80vh;
+    background-image: radial-gradient(50% 50% at 50% 70%, rgba(24, 44, 160, 0.322) 1%, #000000 77%);
+}
+.ApproachCircle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    outline: 4px solid #027FCA;
+    outline-offset: 3px;
+    background: linear-gradient(90deg, rgba(8,39,58,1) 0% , rgba(22,59,82,1) 100%) ;
+}
+.ApproachCircle h1{
+    font-size: 1.5rem;
+}
+.ApproachHeader{
+    background-image: radial-gradient(100% 100% at 50% 50%, rgba(24, 56, 240, 0.486) 1%, #000000 77%);
+}
